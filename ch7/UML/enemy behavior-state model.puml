@@ -1,0 +1,26 @@
+@startuml "enemy behavior-state model.puml"
+
+title Enemy Behavior State Model
+
+[*] --> Idle
+Idle : IsTimeUp - bool
+
+state Patrol
+Patrol : IsTimeUp - bool
+
+state Attack
+Attack : IsInRange - bool
+
+state Recharge
+Recharge : IsPowerLow - bool
+
+Idle --> Patrol
+Idle --> Attack
+Idle --> Recharge
+Patrol --> Idle
+Patrol --> Attack
+Patrol --> Recharge
+Attack --> Recharge
+Recharge --> Idle
+
+@enduml
