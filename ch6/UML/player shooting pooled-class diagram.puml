@@ -1,0 +1,68 @@
+@startuml "player shooting pooled-class diagram.puml"
+
+title Player Shooting Pooled - Class Diagram
+
+class PlayerShootingPooled {
+  +public int: PoolDefaultCapacity
+  +public int: PoolMaxSize
+  -<<Serializable>> private Transform: _weaponAnchor
+  -<<Serializable>> private WeaponRanged: _weapon1
+  -private ObjectPool<ProjectileBase>: _poolProjectiles
+  -private Start()
+  -private OnFire()
+  -private ReturnProjectile(ProjectileBase: projectile)
+}
+
+object _poolProjectiles {
+  +ProjectileBase Get()
+  +Release(ProjectileBase)
+}
+
+PlayerShootingPooled -- _poolProjectiles : uses
+
+
+interface IWeapon {
+  +ProjectileBase: BulletPrefab
+  +Shoot(ProjectileBase: projectile, UnityAction<ProjectileBase>: poolingReleaseCallback)
+}
+
+class WeaponRanged {
+  +public ProjectileBase: BulletPrefab
+  -<<Serializable>> private ProjectileBase: _bulletPrefab
+  -<<Serializable>> private Transform: _projectileSpawn
+  +public Shoot(ProjectileBase: projectile, UnityAction<ProjectileBase> poolingReturnCallback)
+}
+
+class WeaponRanged implements IWeapon
+
+
+abstract class ProjectileBase {
+  -<<Serializable>> private Rigidbody2D: _rb
+  -<<Serializable>> private float: _velocity = 30f
+  -<<Serializable>> private float: _lifetime = 2f
+  -private event UnityAction<ProjectileBase>: _onCollisionAction
+  +public Init(Vector2: direction, UnityAction<ProjectileBase>: collisionCallback)
+  #protected abstract OnTriggerEnter2D(Collider2D collision)
+  #protected abstract LifetimeExpired()
+  #protected Collided()
+}
+
+class Bullet {
+  -private LayerMask: CollideWith
+  #protected OnTriggerEnter2D(Collider2D: collision)
+  #protected LifetimeExpired()
+}
+
+class Bullet extends ProjectileBase
+
+
+' relationships
+WeaponRanged::_bulletPrefab --> ProjectileBase 
+PlayerShootingPooled::_weapon1 --> WeaponRanged
+PlayerShootingPooled::_poolProjectiles --> ProjectileBase
+
+
+'object BulletPrefab
+'object WeaponRanged1Prefab
+
+@enduml
