@@ -19,18 +19,18 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         var keyboard = Keyboard.current;
-        var mouse = Mouse.current;  // Mouse added for bonus task?
+        var mouse = Mouse.current;                                                                  // Mouse added for bonus task.
 
         // Keyboard connected?
-        if (keyboard == null || mouse == null)  // Mouse connected for bonus task?
-            return;     // No keyboard connected so stop running code.
+        if (keyboard == null || mouse == null)                                                      // Mouse connected for bonus task?
+            return;                                                                                 // No keyboard connected so stop running code.
 
-        if (keyboard.spaceKey.IsPressed() || mouse.leftButton.IsPressed())  // Mouse condition added for bonus task?
+        if (keyboard.spaceKey.IsPressed() || mouse.leftButton.IsPressed())                          // Mouse condition added for bonus task.
         {
             // Move while holding spacebar key down.
             _shouldMoveForward = true;
         }
-        else if (keyboard.spaceKey.wasReleasedThisFrame || mouse.leftButton.wasReleasedThisFrame)   // Mouse condition added for bonus task.
+        else if (keyboard.spaceKey.wasReleasedThisFrame || mouse.leftButton.wasReleasedThisFrame)   // Mouse condition added for bonus task?
         {
             // The spacebar key was released - stop moving.
             _shouldMoveForward = false;
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         LookAtMousePointer();
     }
 
-    // FixedUpdate is called every physics fixed timestep
+    // FixedUpdate is called every physics fixed timestep.
     private void FixedUpdate()
     {
         if (_shouldMoveForward)

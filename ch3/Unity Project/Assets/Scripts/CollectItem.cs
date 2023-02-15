@@ -17,7 +17,7 @@ public class CollectItem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // UNDONE: make sure only the player can collect (not tool boxes) - bonus for reader?
+        // UNDONE: Make sure only the player can collect (not tool boxes) - bonus for reader?
         if (!collision.CompareTag(PlayerTag))
             return;
 

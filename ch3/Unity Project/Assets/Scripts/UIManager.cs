@@ -9,7 +9,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI TimerText;
     public TextMeshProUGUI GameOverText;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
         CollectedItemText.text = string.Empty;

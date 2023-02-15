@@ -10,6 +10,8 @@ public class TouchHazard : MonoBehaviour
         if (collision.CompareTag(Player.tag))
         {
             Debug.Log("You touched a toxic puddle!");
+
+            // TODO: Refactor to not use a Player scene reference assigned in the Inspector.
             Player.SlowPlayerSpeed();
         }
     }
