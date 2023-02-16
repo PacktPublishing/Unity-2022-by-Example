@@ -32,7 +32,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -54,6 +54,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -95,6 +96,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: front hand
@@ -116,7 +118,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -65, y: 1468}
+    uvTransform: {x: 459, y: 1751}
+    spritePosition: {x: 524, y: 283}
   - name: front lower arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +139,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 207, y: 221}
+    uvTransform: {x: 771, y: 625}
+    spritePosition: {x: 564, y: 404}
   - name: front upper arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -156,7 +160,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 10, y: -171}
+    uvTransform: {x: 459, y: 402}
+    spritePosition: {x: 449, y: 573}
   - name: front leg wheel
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -176,7 +181,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -385, y: 829}
+    uvTransform: {x: 4, y: 841}
+    spritePosition: {x: 389, y: 12}
   - name: hips
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -196,7 +202,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -83, y: -58}
+    uvTransform: {x: 459, y: 4}
+    spritePosition: {x: 542, y: 62}
   - name: torso
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -504, y: -260}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 508, y: 264}
   - name: head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -236,7 +244,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -108, y: 291}
+    uvTransform: {x: 459, y: 1374}
+    spritePosition: {x: 567, y: 1083}
   - name: neck
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -256,7 +265,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -12, y: 774}
+    uvTransform: {x: 646, y: 1751}
+    spritePosition: {x: 658, y: 977}
   - name: back leg wheel
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -276,7 +286,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -643, y: 1265}
+    uvTransform: {x: 4, y: 1280}
+    spritePosition: {x: 647, y: 15}
   - name: back uppser arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -296,7 +307,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -236, y: 343}
+    uvTransform: {x: 459, y: 888}
+    spritePosition: {x: 695, y: 545}
   - name: back lower arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -316,7 +328,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 56, y: 208}
+    uvTransform: {x: 862, y: 625}
+    spritePosition: {x: 806, y: 417}
   - name: back hand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -336,7 +349,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 7, y: 124}
+    uvTransform: {x: 771, y: 402}
+    spritePosition: {x: 764, y: 278}
   characterData:
     bones: []
     parts: []
@@ -397,6 +411,7 @@ ScriptedImporter:
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -526,6 +541,8 @@ ScriptedImporter:
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 

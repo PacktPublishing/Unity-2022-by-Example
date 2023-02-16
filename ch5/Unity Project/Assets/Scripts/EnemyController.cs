@@ -20,8 +20,8 @@ public class EnemyController : MonoBehaviour
     // Implemented behaviors.
     private IBehaviorPatrolWaypoints _behaviorPatrol;
 
-    [SerializeField]
-    private int _health = 10;
+    // UNDONE: Temporary variable until a HealthSystem component is attached?
+    [SerializeField] private int _health = 10;
 
 
     private void Awake()

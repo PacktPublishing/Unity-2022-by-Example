@@ -2,9 +2,9 @@ using UnityEngine;
 
 public interface IBehaviorPatrolWaypoints
 {
-    public Transform WaypointPatrolLeft { get; }
-    public Transform WaypointPatrolRight { get; }
+    Transform WaypointPatrolLeft { get; }
+    Transform WaypointPatrolRight { get; }
 
-    public void Init(Rigidbody2D rb, Vector2 direction, float acceleration, float speedMax);
-    public void TickPhysics();
+    void Init(Rigidbody2D rb, Vector2 direction, float acceleration, float speedMax);
+    void TickPhysics();
 }

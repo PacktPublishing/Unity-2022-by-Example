@@ -32,7 +32,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -54,6 +54,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -95,6 +96,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: front hand
@@ -444,7 +446,8 @@ ScriptedImporter:
     - {x: 26, y: 27}
     - {x: 27, y: 28}
     tessellationDetail: 0
-    uvTransform: {x: -65, y: 1468}
+    uvTransform: {x: 394, y: 1725}
+    spritePosition: {x: 524, y: 283}
   - name: front lower arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -759,7 +762,8 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    uvTransform: {x: 207, y: 220}
+    uvTransform: {x: 737, y: 579}
+    spritePosition: {x: 564, y: 405}
   - name: front upper arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1096,7 +1100,8 @@ ScriptedImporter:
     - {x: 25, y: 26}
     - {x: 26, y: 27}
     tessellationDetail: 0
-    uvTransform: {x: 10, y: -171}
+    uvTransform: {x: 444, y: 388}
+    spritePosition: {x: 449, y: 573}
   - name: front leg wheel
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1413,7 +1418,8 @@ ScriptedImporter:
     - {x: 24, y: 25}
     - {x: 25, y: 26}
     tessellationDetail: 0
-    uvTransform: {x: -385, y: 828}
+    uvTransform: {x: -12, y: 828}
+    spritePosition: {x: 389, y: 13}
   - name: hips
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1761,7 +1767,8 @@ ScriptedImporter:
     - {x: 26, y: 27}
     - {x: 27, y: 28}
     tessellationDetail: 0
-    uvTransform: {x: -84, y: -60}
+    uvTransform: {x: 426, y: -27}
+    spritePosition: {x: 543, y: 64}
   - name: torso
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2153,7 +2160,8 @@ ScriptedImporter:
     - {x: 30, y: 31}
     - {x: 31, y: 32}
     tessellationDetail: 0
-    uvTransform: {x: -505, y: -261}
+    uvTransform: {x: -54, y: -26}
+    spritePosition: {x: 509, y: 265}
   - name: head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2477,7 +2485,8 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    uvTransform: {x: -107, y: 292}
+    uvTransform: {x: 431, y: 1280}
+    spritePosition: {x: 566, y: 1082}
   - name: neck
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2803,7 +2812,8 @@ ScriptedImporter:
     - {x: 24, y: 25}
     - {x: 25, y: 26}
     tessellationDetail: 0
-    uvTransform: {x: -12, y: 773}
+    uvTransform: {x: 622, y: 1647}
+    spritePosition: {x: 658, y: 978}
   - name: back leg wheel
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3109,7 +3119,8 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    uvTransform: {x: -644, y: 1265}
+    uvTransform: {x: -20, y: 1265}
+    spritePosition: {x: 648, y: 15}
   - name: back upper arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3446,7 +3457,8 @@ ScriptedImporter:
     - {x: 25, y: 26}
     - {x: 26, y: 27}
     tessellationDetail: 0
-    uvTransform: {x: -236, y: 343}
+    uvTransform: {x: -236, y: 874}
+    spritePosition: {x: 695, y: 545}
   - name: back lower arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3761,7 +3773,8 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    uvTransform: {x: 56, y: 206}
+    uvTransform: {x: 828, y: 579}
+    spritePosition: {x: 806, y: 419}
   - name: back hand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4109,7 +4122,8 @@ ScriptedImporter:
     - {x: 26, y: 27}
     - {x: 27, y: 28}
     tessellationDetail: 0
-    uvTransform: {x: 6, y: 124}
+    uvTransform: {x: 706, y: 376}
+    spritePosition: {x: 765, y: 278}
   characterData:
     bones:
     - name: bone_2
@@ -4332,6 +4346,7 @@ ScriptedImporter:
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -4461,6 +4476,8 @@ ScriptedImporter:
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 

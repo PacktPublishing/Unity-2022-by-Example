@@ -32,7 +32,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -54,6 +54,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -95,6 +96,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: front_lower_arm
@@ -116,7 +118,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -39, y: 2}
+    uvTransform: {x: 703, y: 1021}
+    spritePosition: {x: 742, y: 1019}
   - name: front_hand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +139,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -398, y: 904}
+    uvTransform: {x: 389, y: 1847}
+    spritePosition: {x: 787, y: 943}
   - name: front_upper_arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -156,7 +160,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -689, y: 27}
+    uvTransform: {x: 4, y: 1283}
+    spritePosition: {x: 693, y: 1256}
   - name: front_foot
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -176,7 +181,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 544, y: 234}
+    uvTransform: {x: 1299, y: 318}
+    spritePosition: {x: 755, y: 84}
   - name: front_lower_leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -196,7 +202,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -375, y: 1060}
+    uvTransform: {x: 389, y: 1231}
+    spritePosition: {x: 764, y: 171}
   - name: front_upper_leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -343, y: -673}
+    uvTransform: {x: 389, y: 4}
+    spritePosition: {x: 732, y: 677}
   - name: hips
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -236,7 +244,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 571, y: -1057}
+    uvTransform: {x: 1299, y: 4}
+    spritePosition: {x: 728, y: 1061}
   - name: torso
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -256,7 +265,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -742, y: -1290}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 746, y: 1294}
   - name: head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -276,7 +286,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 158, y: -1877}
+    uvTransform: {x: 943, y: 4}
+    spritePosition: {x: 785, y: 1881}
   - name: neck
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -296,7 +307,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -303, y: 39}
+    uvTransform: {x: 552, y: 1847}
+    spritePosition: {x: 855, y: 1808}
   - name: back_foot
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -316,7 +328,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 423, y: 392}
+    uvTransform: {x: 1299, y: 475}
+    spritePosition: {x: 876, y: 83}
   - name: back_lower_leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -336,7 +349,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -181, y: -162}
+    uvTransform: {x: 703, y: 4}
+    spritePosition: {x: 884, y: 166}
   - name: back_upper_leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -356,7 +370,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -485, y: -65}
+    uvTransform: {x: 389, y: 610}
+    spritePosition: {x: 874, y: 675}
   - name: back_upper_arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -376,7 +391,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -894, y: -584}
+    uvTransform: {x: 4, y: 646}
+    spritePosition: {x: 898, y: 1230}
   - name: back_hand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -396,7 +412,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 704, y: -935}
+    uvTransform: {x: 1696, y: 4}
+    spritePosition: {x: 992, y: 939}
   - name: back_lower_arm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -416,7 +433,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -242, y: -410}
+    uvTransform: {x: 703, y: 620}
+    spritePosition: {x: 945, y: 1030}
   characterData:
     bones: []
     parts: []
@@ -477,6 +495,7 @@ ScriptedImporter:
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -646,6 +665,8 @@ ScriptedImporter:
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 
