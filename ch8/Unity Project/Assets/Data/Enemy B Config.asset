@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d53e25d62108b409ac57850e24db1b, type: 3}
+  m_Name: Enemy B Config
+  m_EditorClassIdentifier: 
+  Acceleration: 15
+  SpeedMax: 3
+  AttackRange: 1
+  FireRange: 60
+  FireCooldown: 60
+  CanJump: 0
+  JumpForce: 0
+  TimeIdle: 5
+  TimePatrol: 15
