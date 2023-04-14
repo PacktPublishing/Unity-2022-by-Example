@@ -1,0 +1,51 @@
+@startuml "health system-class diagram.puml"
+
+title Health System - Class Diagram
+
+class HealthSystem {
+  - _healthMax : int
+  - _healthCurrent : int
+  - _objectWithHealth : IHaveHealth
+  
+OnCollisionEnter(collision:Collision) : void
+  - TakeDamage(amount:int) : void
+  - ApplyHealing(amount:int) : void
+  - HealthChanged() : void
+}
+HealthSystem --> "_objectWithHealth" IHaveHealth
+
+
+interface IHaveHealth {
+  HealthChanged(amount:int) : void
+  Died() : void
+}
+
+
+interface IDamage {
+  DamageAmount : int <<get>>
+  ShowDamageVisuals(collision:Collision, isAffected:bool) : void
+}
+IDamage --> "TakeDamage(DamageAmount)" HealthSystem
+
+
+interface IHeal {
+  HealAmount : int <<get>>
+  ShowHealingVisuals(healing:GameObject) : void
+}
+IHeal --> "ApplyHealing(HealAmount)" HealthSystem
+
+
+class PickupHeal {
+  + HealAmount : int <<get>>
+  + ShowHealingVisuals(healing:GameObject) : void
+}
+IHeal <|-- PickupHeal
+
+
+class ProjectileDamage {
+  + DamageAmount : int <<get>>
+  + ShowDamageVisuals(collision:Collision, isAffected:bool) : void
+}
+IDamage <|-- ProjectileDamage
+
+@enduml
