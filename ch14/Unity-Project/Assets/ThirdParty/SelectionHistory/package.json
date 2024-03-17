@@ -1,0 +1,16 @@
+﻿{
+  "name": "sc.utilities.selectionhistory",
+  "description": "Selection history window",
+  "version": "1.0.1",
+  "unity": "2019.1",
+  "unityRelease": "0f1",
+  "displayName": "Selection History",
+  "author": {
+    "name": "Staggart Creations",
+    "email": "contact@staggart.xyz",
+    "url": "http://staggart.xyz/"
+  },
+  "keywords": [
+    "history"
+  ]
+}
