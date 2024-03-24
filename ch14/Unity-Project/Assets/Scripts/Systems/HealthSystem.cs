@@ -54,7 +54,7 @@ public class HealthSystem : MonoBehaviour
     /// Changed to public so we can deal damage directly to an object that implements this.
     /// </summary>
     /// <param name="amount"></param>
-    public void TakeDamage(int amount)
+    private void TakeDamage(int amount)
     {
         // If the health is already zero then we don't want to process health.
         // Some player actions may be called in quick succession that could try to

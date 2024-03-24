@@ -1,11 +1,13 @@
 using System.Collections;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+public class Gun : MonoBehaviour, IDamage
 {
     [SerializeField] private float _range = 100f;
     [SerializeField] private Transform _firingPoint;
-    [SerializeField] int _damageAmount = 20;
+    public int DamageAmount => _damageAmount;
+    [SerializeField] private int _damageAmount = 20;
+    public LayerMask DamageMask => _damageMask;
     [SerializeField] private LayerMask _damageMask;
 
     private LineRenderer _lineRenderer;
@@ -41,7 +43,10 @@ public class Gun : MonoBehaviour
         // Try to apply damage directly to the object that was hit, if it has a health system component (always on the root object of the Prefab).
         if (hit.transform.root.TryGetComponent<HealthSystem>(out var health))
         {
-            health.TakeDamage(_damageAmount);
+            health.HandleDamageCollision(null, this);
         }
     }
+
+    public void DoDamage(Collider collision, bool isAffected)
+    { }
 }
