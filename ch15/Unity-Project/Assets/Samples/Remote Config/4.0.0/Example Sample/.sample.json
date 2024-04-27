@@ -1,0 +1,5 @@
+{
+	"displayName":"Example Sample",
+	"description": "This sample example C# file can be used to quickly utilise usage of Remote Config APIs. For more comprehensive code integration, visit https://docs.unity3d.com/Packages/com.unity.remote-config@latest",
+	"createSeparatePackage": false
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"947276d6-da90-48da-85b0-e0b7e3b9c3e0\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Theme_Holiday\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": true\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"947276d6-da90-48da-85b0-e0b7e3b9c3e0\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Theme_Holiday\",\r\n      \"type\": \"bool\",\r\n     
+    \"value\": true\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"824b84f9-3137-4534-8517-eb98ff1c65ee\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"d2d9bf2f-8c0e-466c-8444-cda182c4f1fc\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2024-03-11T10:30:35Z\",\r\n    \"updatedAt\":
+    \"2024-03-11T10:30:35Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"824b84f9-3137-4534-8517-eb98ff1c65ee\",\r\n   
+    \"name\": \"development\",\r\n    \"id\": \"88a5b5dd-e245-43e0-b0c8-1726c2868188\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2024-04-03T16:43:59Z\",\r\n   
+    \"updatedAt\": \"2024-04-03T16:43:59Z\"\r\n  }\r\n]"
